@@ -1,0 +1,14 @@
+{
+  "name": "4gaboards-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests for 4ga Boards",
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test tests/e2e/auth.spec.js",
+    "test:cards": "playwright test tests/e2e/cardManagement.spec.js",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
